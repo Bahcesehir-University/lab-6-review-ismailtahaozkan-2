@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Constructors & Destructor
-        setup-command: ''
+        setup-command: make
         command: make test1
         timeout: 10
         max-score: 20
@@ -27,7 +27,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Copy Constructor
-        setup-command: ''
+        setup-command: make
         command: make test2
         timeout: 10
         max-score: 15
@@ -36,7 +36,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Encapsulation (Getters/Setters)
-        setup-command: ''
+        setup-command: make
         command: make test3
         timeout: 10
         max-score: 15
@@ -45,7 +45,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: String Operations
-        setup-command: ''
+        setup-command: make
         command: make test4
         timeout: 10
         max-score: 10
@@ -54,7 +54,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Operator Overloading
-        setup-command: ''
+        setup-command: make
         command: make test5
         timeout: 10
         max-score: 25
@@ -63,7 +63,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Function Overloading
-        setup-command: ''
+        setup-command: make
         command: make test6
         timeout: 10
         max-score: 15
