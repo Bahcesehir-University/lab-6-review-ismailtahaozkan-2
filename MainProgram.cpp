@@ -1,7 +1,7 @@
 // ============================================================
 // Lab W7: C++ OOP Review - Classes, Encapsulation, Strings,
 //         Copy Constructors, Operator Overloading
-// Course: Object-Oriented Programming
+// Course: Object-Oriented Programming.
 // Duration: 40 minutes
 // ============================================================
 // TEACHER VERSION - Complete Solution
